@@ -1,0 +1,49 @@
+
+.task-card {
+    border: 1px solid blueviolet;
+    width: fit-content;
+    padding: 1vh;
+    margin-bottom: 0.5vh;
+    background-color: rgb(167, 114, 114);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  #all-tasks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+ 
+  #text-area {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  h1, h3 {
+    text-align: center;
+  }
+  
+.button {
+    height: 5vh;
+    margin-left: 1vh;
+    background-color: rgb(196, 196, 219);
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  #preview {
+    display: flex;
+    justify-content: center;
+  }
+  
